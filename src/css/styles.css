@@ -10,16 +10,26 @@ body {
   background-color: #fafafa;
   color: #212121;
   line-height: 1.5;
+  padding: 35px;
 }
 
 #search-box {
   font: inherit;
-  padding: 8px;
+  font-size: 24px;
+  font-weight: 500;
+  padding: 10px;
   max-width: 320px;
-  margin-bottom: 16px;
+  margin-bottom: 24px;
+  margin-left: 40px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 5px 10px rgba(154, 160, 185, 0.05),
+    0 15px 40px rgba(0, 0, 0, 0.1);
 }
 /* add styles */
-
+#search-box:focus {
+  outline: none;
+}
 .country-list {
   list-style: none;
 }
