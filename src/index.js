@@ -13,6 +13,7 @@ function cleanMarkup(ref) {
   return (ref.innerHTML = '');
 }
 refs.inputEl.addEventListener('input', debounce(onInputValue, DEBOUNCE_DELAY));
+
 function onInputValue() {
   const name = refs.inputEl.value.trim();
   if (name === '') {
